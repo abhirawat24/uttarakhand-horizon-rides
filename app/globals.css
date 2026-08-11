@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 @import "tailwindcss";
 
 :root {
@@ -23,4 +27,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes logoFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-logo-float {
+  animation: logoFloat 3.5s ease-in-out infinite;
 }
