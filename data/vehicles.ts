@@ -16,7 +16,7 @@ export const vehicles: Vehicle[] = [
     type: "Scooty",
     pricePerDay: 500,
     securityDeposit: 2000,
-    image: "/vehicles/access.png",
+    image: "/vehicles/access.jpeg",
   },
 
   {
@@ -34,7 +34,7 @@ export const vehicles: Vehicle[] = [
     type: "Scooty",
     pricePerDay: 500,
     securityDeposit: 2000,
-    image: "/vehicles/avenis.png",
+    image: "/vehicles/avenis.jpeg",
   },
 
   {
@@ -43,7 +43,7 @@ export const vehicles: Vehicle[] = [
     type: "Scooty",
     pricePerDay: 599,
     securityDeposit: 2000,
-    image: "/vehicles/burgman.png",
+    image: "/vehicles/burgman.jpeg",
   },
 
   {
@@ -61,7 +61,7 @@ export const vehicles: Vehicle[] = [
     type: "Bike",
     pricePerDay: 1599,
     securityDeposit: 5000,
-    image: "/vehicles/harley.png",
+    image: "/vehicles/harley.jpeg",
   },
 
   {
@@ -70,7 +70,7 @@ export const vehicles: Vehicle[] = [
     type: "Bike",
     pricePerDay: 999,
     securityDeposit: 4000,
-    image: "/vehicles/hunter.png",
+    image: "/vehicles/hunter.jpeg",
   },
 
   {
@@ -88,6 +88,6 @@ export const vehicles: Vehicle[] = [
     type: "Scooty",
     pricePerDay: 500,
     securityDeposit: 2000,
-    image: "/vehicles/xoom.png",
+    image: "/vehicles/xoom.jpeg",
   },
 ];
