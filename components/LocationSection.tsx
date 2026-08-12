@@ -1,5 +1,11 @@
 import { Clock, MapPin, Navigation, Phone } from "lucide-react";
 
+const shopLocation =
+  "https://www.google.com/maps/place/Uttarakhand+Horizon+Rides+Rental+Scooty+%26+Bikes/@29.264335,79.5422908,17z/data=!3m1!4b1!4m6!3m5!1s0x39a09b7e6c27ceb9:0xea6a897fcfb1743d!8m2!3d29.264335!4d79.5422908!16s%2Fg%2F11zg9ffnrd";
+
+const mapEmbedUrl =
+  "https://www.google.com/maps?q=29.264335,79.5422908&z=17&output=embed";
+
 export default function LocationSection() {
   return (
     <section
@@ -29,9 +35,8 @@ export default function LocationSection() {
 
           {/* Map */}
           <div className="relative min-h-[350px] lg:min-h-[500px]">
-
             <iframe
-              src="https://www.google.com/maps?q=Kathgodam,Uttarakhand&output=embed"
+              src={mapEmbedUrl}
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -41,12 +46,12 @@ export default function LocationSection() {
               title="Uttarakhand Horizon Rides Location"
               className="absolute inset-0 h-full w-full"
             />
-
           </div>
 
           {/* Information */}
           <div className="flex flex-col justify-center p-7 sm:p-10 lg:p-14">
 
+            {/* Location Icon */}
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-amber-100 text-amber-700">
               <MapPin size={23} />
             </div>
@@ -64,7 +69,6 @@ export default function LocationSection() {
 
               {/* Address */}
               <div className="flex gap-4">
-
                 <MapPin
                   size={20}
                   className="mt-1 shrink-0 text-amber-600"
@@ -79,12 +83,10 @@ export default function LocationSection() {
                     Kathgodam, Uttarakhand
                   </p>
                 </div>
-
               </div>
 
               {/* Timing */}
               <div className="flex gap-4">
-
                 <Clock
                   size={20}
                   className="mt-1 shrink-0 text-amber-600"
@@ -99,12 +101,10 @@ export default function LocationSection() {
                     6:00 AM – 6:00 PM
                   </p>
                 </div>
-
               </div>
 
               {/* Phone */}
               <div className="flex gap-4">
-
                 <Phone
                   size={20}
                   className="mt-1 shrink-0 text-amber-600"
@@ -119,25 +119,22 @@ export default function LocationSection() {
                     Call or WhatsApp us for availability.
                   </p>
                 </div>
-
               </div>
 
             </div>
 
             {/* Directions */}
             <a
-              href="https://www.google.com/maps/search/?api=1&query=Kathgodam,Uttarakhand"
+              href={shopLocation}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-9 inline-flex w-fit items-center gap-2 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition hover:bg-slate-800"
             >
               <Navigation size={17} />
-
               Get Directions
             </a>
 
           </div>
-
         </div>
 
       </div>

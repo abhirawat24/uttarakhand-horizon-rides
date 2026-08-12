@@ -58,7 +58,7 @@ export const destinations: Destination[] = [
     description:
       "Visit one of Uttarakhand's well-known spiritual destinations surrounded by beautiful hills.",
     image: "/destinations/kaichi.png",
-    distance: "Approx. 40 km",
+    distance: "Approx. 35 km",
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=Kainchi+Dham,Uttarakhand",
   },
@@ -72,5 +72,38 @@ export const destinations: Destination[] = [
     distance: "Approx. 30 km",
     mapUrl:
       "https://www.google.com/maps/search/?api=1&query=Naukuchiatal,Uttarakhand",
+  },
+
+  {
+    id: "almora",
+    name: "Almora",
+    description:
+      "Explore the charming hill town of Almora, known for its mountain views, local culture and scenic roads.",
+    image: "/destinations/almora.png",
+    distance: "Approx. 85 km",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=Almora,Uttarakhand",
+  },
+
+  {
+    id: "bhalugarh-waterfall",
+    name: "Bhalugarh Waterfall",
+    description:
+      "Ride through the beautiful Kumaon hills and discover the peaceful surroundings of Bhalugarh Waterfall.",
+    image: "/destinations/bhalugarh-waterfall.webp",
+    distance: "Approx. 55 km",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=Bhalugarh+Waterfall,Uttarakhand",
+  },
+
+  {
+    id: "ranikhet",
+    name: "Ranikhet",
+    description:
+      "Enjoy scenic mountain roads, peaceful surroundings and beautiful Himalayan views in Ranikhet.",
+    image: "/destinations/ranikhet.png",
+    distance: "Approx. 75 km",
+    mapUrl:
+      "https://www.google.com/maps/search/?api=1&query=Ranikhet,Uttarakhand",
   },
 ];
