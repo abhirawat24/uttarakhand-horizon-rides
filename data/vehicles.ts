@@ -5,6 +5,7 @@ export interface Vehicle {
   name: string;
   type: VehicleType;
   pricePerDay: number;
+  weekendPrice?: number;
   securityDeposit: number;
   image: string;
 }
@@ -15,6 +16,7 @@ export const vehicles: Vehicle[] = [
     name: "Suzuki Access",
     type: "Scooty",
     pricePerDay: 500,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/access.jpeg",
   },
@@ -24,6 +26,7 @@ export const vehicles: Vehicle[] = [
     name: "Honda Activa",
     type: "Scooty",
     pricePerDay: 500,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/activa.png",
   },
@@ -33,6 +36,7 @@ export const vehicles: Vehicle[] = [
     name: "Suzuki Avenis",
     type: "Scooty",
     pricePerDay: 500,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/avenis.jpeg",
   },
@@ -42,6 +46,7 @@ export const vehicles: Vehicle[] = [
     name: "Suzuki Burgman",
     type: "Scooty",
     pricePerDay: 599,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/burgman.jpeg",
   },
@@ -78,6 +83,7 @@ export const vehicles: Vehicle[] = [
     name: "TVS Ntorq",
     type: "Scooty",
     pricePerDay: 599,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/ntorq.png",
   },
@@ -87,6 +93,7 @@ export const vehicles: Vehicle[] = [
     name: "Hero Xoom",
     type: "Scooty",
     pricePerDay: 500,
+    weekendPrice: 800,
     securityDeposit: 2000,
     image: "/vehicles/xoom.jpeg",
   },
